@@ -2,4 +2,3 @@
 2.package.json configuration properties
 3.Script configuration in package.json to eliminate eclipse testrunner
 4.npm commands to trigger test suites
-5.Protractor framework building from scratch.
