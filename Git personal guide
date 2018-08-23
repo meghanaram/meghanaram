@@ -35,6 +35,7 @@ Instead, to drop all your local changes and
 commits, 
 fetch the latest history from the server and 
 point your local master branch at it, do this:    git fetch origin
-
+                                                  git reset --hard origin/master
+                                                  or rebase
                                                  
 
