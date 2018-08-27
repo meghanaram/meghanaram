@@ -11,6 +11,7 @@ Enter        git push origin <branchname>           at the command line to copy 
 Create a new branch =                             git checkout -b <branchname>
 Switch from one branch to another =               git checkout <branchname>
 List all branches =                               git branch
+Create a new feature branch in repository =       git branch <feature_branch>
 Delete branch =                                   git branch -d <branchname>
 Add one or more files to staging area =           git add --all
 Push the branch =                                 git push origin <branchname>
@@ -36,6 +37,7 @@ commits,
 fetch the latest history from the server and 
 point your local master branch at it, do this:    git fetch origin
                                                   git reset --hard origin/master
-                                                  or rebase
+                                                  or rebase to get code from repository
+                                                  
                                                  
 
