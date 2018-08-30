@@ -8,11 +8,8 @@ Enter        git commit -m '<commit message>'       at the command line to commi
 Enter        git push origin <branchname>           at the command line to copy your files from your local repo
 
 
-Create a new branch =                             git checkout -b <branchname>
-Switch from one branch to another =               git checkout <branchname>
-List all branches =                               git branch
-Create a new feature branch in repository =       git branch <feature_branch>
-Delete branch =                                   git branch -d <branchname>
+
+
 Add one or more files to staging area =           git add --all
 Push the branch =                                 git push origin <branchname>
 Status =                                          git status
@@ -43,15 +40,38 @@ point your local master branch at it, do this:    git fetch origin
 
 
 Using branches
-Existing branches =  			git branch
-New branches =       			git checkout -b <new-branch>
-Switching Branches = 			git checkout <branchname>
-Delete the specified branch = 	git branch -D <branch>
+
+Existing branches =  							  git branch
+New branches =       							  git checkout -b <new-branch>
+Switching Branches = 							  git checkout <branchname>
+Delete the specified branch = 					  git branch -D <branch>
 Rename the current branch to
- branch = 						git branch -m <branch>
+ branch = 										  git branch -m <branch>
 
-List all remote branches =      git branch -a
+List all remote branches =      				  git branch -a
 
 
+After you have manually resolved any conflicts,   git add <filename>
+you mark the changed file:
 
+Adding files to the stage with the use of a 
+period											  git add .
+
+Used to store the changes that you've made        git commit -m "commit message"
+
+Push commits made on your local branch to a       git push origin <branch>
+remote repository
+
+Fetch and merge changes on the remote server 
+to your working directory=                        git pull
+
+fetch the latest history from the server and 
+point your local master branch at it, do this:    git fetch origin
+
+
+To merge a different branch into                  git merge <branchname>
+your active branch:
+
+Process of moving or combining a sequence of 
+commits to a new base commit                      git rebase origin/master
 
