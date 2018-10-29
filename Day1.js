@@ -1,2 +1,1 @@
-Learning skills
-dhfghj
+Technical skills
