@@ -2,3 +2,7 @@ Penetration Testing: A Penetration test, also known as pen test, is a simulated 
 In the context of web application security, penetration testing is commonly used to augment a WAF.
 Pen testing can involve the attempted braching of any number of application system
 
+PENETRATION TESTING STAGES
+
+
+
