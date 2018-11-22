@@ -1,1 +1,1 @@
-Technical skills
+Just to practice git
